@@ -15,7 +15,10 @@ Bandit3 :
     mdp : 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 
 Bandit4 :
-    cmd : cat inhere/-file07
+    cmd : 
+        cd inhere
+        file ./*
+        cat ./-file07
     mdp : lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
 Bandit5 : 
@@ -54,3 +57,47 @@ Bandit12
 
 Bandit13 
     cmd : 
+        xxd -r data.txt data1
+        mv data1 data2.gz
+        gzip -d data2.gz
+        mv data2 data3.bz2
+        bzip2 -d data3.bz2
+        mv data3 data4.gz
+        gzip -d data4.gz
+        tar -xvf data4
+        tar -xvf data5.bin
+        mv data6.bin data7.bz2
+        bzip2 -d data7.bz2
+        tar -xvf data7
+        mv data8.bin data9.gz
+        gzip -d data9.gz
+        cat data9
+    mdp : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+
+Bandit14
+    cmd :ssh -i sshkey.private bandit14@localhost -p 2220
+
+Bandit15:
+    cmd : 
+        cd /etc/bandit_pass/bandit14
+        cat bandit14
+        echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq | nc localhost 30000
+    mdp : jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+Bandit16 :
+    cmd :
+        cat /etc/bandit_pass/bandit15
+        openssl s_client -connect localhost:30001
+    mdp : JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+Bandit17 :
+    cmd : 
+        openssl s_client -connect localhost:31790
+        cd  /tmp
+        vim ssh-17-17.private ( pour copier le key )
+        ssh -i ssh-17.private bandit17@localhost
+        chmod 600 ssh-17-17.private
+        ssh -i ssh-17.private bandit17@localhost -p 2220
+
+Bandit18 :
+    
