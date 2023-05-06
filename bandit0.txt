@@ -29,21 +29,21 @@ Bandit5 :
 
     mdp : P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 
-Bandit7 :
+Bandit6 :
     cmd : 
         find / -size 33c -user bandit7 -group bandit6 -type f
         cat ./var/lib/dpkg/info/bandit7.password
     mdp : z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
-Bandit8
+Bandit7
     cmd : grep millionth
     mdp : TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
-Bandit9
+Bandit8
     cmd : sort data.txt | uniq -cu
     mdp : EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
-Bandit10
+Bandit19
     cmd : strings data.txt | grep == 
     mdp : G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
