@@ -95,9 +95,14 @@ Bandit17 :
         openssl s_client -connect localhost:31790
         cd  /tmp
         vim ssh-17-17.private ( pour copier le key )
-        ssh -i ssh-17.private bandit17@localhost
         chmod 600 ssh-17-17.private
         ssh -i ssh-17.private bandit17@localhost -p 2220
+    mdp : VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 
 Bandit18 :
-    
+    cmd : ssh -i sshkey.private bandit14@localhost -p 2220 cat readme
+    mdp : awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+Bandit19 :
+    cmd : 
+    mdp : 
