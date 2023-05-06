@@ -1,0 +1,56 @@
+Bandit0 : 
+    cmd : cat readme
+    mdp : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+Bandit1 : 
+    cmd : cat ./-
+    mdp : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+Bandit2 :
+    cmd : cat "space in this filename"
+    mdp : aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+Bandit3 :
+    cmd : cat inhere/.hidden
+    mdp : 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+Bandit4 :
+    cmd : cat inhere/-file07
+    mdp : lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+Bandit5 : 
+    
+    cmd : 
+        find -size 1033c
+        cat inhere/maybehere07.file2
+
+    mdp : P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+Bandit7 :
+    cmd : 
+        find / -size 33c -user bandit7 -group bandit6 -type f
+        cat ./var/lib/dpkg/info/bandit7.password
+    mdp : z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+Bandit8
+    cmd : grep millionth
+    mdp : TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+Bandit9
+    cmd : sort data.txt | uniq -cu
+    mdp : EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+Bandit10
+    cmd : strings data.txt | grep == 
+    mdp : G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+Bandit11
+    cmd : cat data.txt | base64 -d
+    mdp : 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+Bandit12
+    cmd : cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+    mdp : JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+Bandit13 
+    cmd : 
