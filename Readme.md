@@ -1,15 +1,17 @@
 <style>
     p { font-size: 17px; }
     .pwd{ color:#00FF00; }
+    h1{ text-align : center; margin: 20px 0px; font-size: 35px;}
 </style>
 
 # **Solution des challenges Bandit level 0 => level 34**
-
 - ## **Level 0 => Level 1**
 ```sh
 cat readme
 ```
 **Mot de passe level 1 :** <span class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
+
+<hr>
 
 - ## **Level 1 => Level 2**
 ```sh
@@ -17,11 +19,15 @@ cat ./-
 ```
 **Mot de passe level 2 :** <span class="pwd">rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi</span>
 
+<hr>
+
 - ## **Level 2 => Level 3**
 ```sh
 cat "space in this filename"
 ```
 **Mot de passe level 3 :** <span class="pwd">aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG</span>
+
+<hr>
 
 - ## **Level 3 => Level 4**
 ```sh
@@ -30,6 +36,8 @@ ls -a inhere
 cat inhere/.hidden
 ```
 **Mot de passe level 4 :** <span class="pwd">2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</span>
+
+<hr>
 
 - ## **Level 4 => Level 5**
 ```sh
@@ -41,6 +49,8 @@ cat ./-file07
 ```
 **Mot de passe level 5 :** <span class="pwd">lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR</span>
 
+<hr>
+
 - ## **Level 5 => Level 6**
 ```sh
 find -size 1033c
@@ -48,6 +58,8 @@ find -size 1033c
 cat inhere/maybehere07.file2
 ```
 **Mot de passe level 6 :** <span class="pwd">P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU</span>
+
+<hr>
 
 - ## **Level 6 => Level 7**
 ```sh
@@ -57,17 +69,15 @@ cat ./var/lib/dpkg/info/bandit7.password
 ```
 **Mot de passe level 7 :** <span class="pwd">z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S</span>
 
+<hr>
+
 - ## **Level 7 => Level 8**
 ```sh
 grep "millionth" data.txt
 ```
 **Mot de passe level 8 :** <span class="pwd">TESKZC0XvTetK0S9xNwm25STk5iWrBvP</span>
 
-- ## **Level 8 => Level 9**
-```sh
-sort data.txt | uniq -cu
-```
-**Mot de passe level 9 :** <span class="pwd">EN632PlfYiZbn3PhVK3XOGSlNInNE00t</span>
+<hr>
 
 - ## **Level 8 => Level 9**
 ```sh
@@ -75,6 +85,7 @@ sort data.txt | uniq -cu
 ```
 **Mot de passe level 9 :** <span class="pwd">EN632PlfYiZbn3PhVK3XOGSlNInNE00t</span>
 
+<hr>
 
 - ## **Level 9 => Level 10**
 ```sh
@@ -82,6 +93,7 @@ strings data.txt | grep "=="
 ```
 **Mot de passe level 10 :** <span class="pwd">G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s</span>
 
+<hr>
 
 - ## **Level 10 => Level 11**
 ```sh
@@ -89,11 +101,15 @@ cat data.txt | base64 -d
 ```
 **Mot de passe level 11 :** <span class="pwd">6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM</span>
 
+<hr>
+
 - ## **Level 11 => Level 12**
 ```sh
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
 **Mot de passe level 12 :** <span class="pwd">JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv</span>
+
+<hr>
 
 - ## **Level 12 => Level 13**
 ```sh
@@ -115,17 +131,20 @@ cat data9
 ```
 **Mot de passe level 13 :** <span class="pwd">wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw</span>
 
+<hr>
+
 - ## **Level 13 => Level 14**
 ```sh
 cat sshkey.private 
 
 ssh -i sshkey.private bandit14@localhost -p 2220
 
-cat /etc//bandit_pass/bandit14
+cat /etc/bandit_pass/bandit14
 
 ```
 **Mot de passe level 14 :** <span class="pwd">fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq</span>
 
+<hr>
 
 - ## **Level 14 => Level 15**
 ```sh
@@ -137,6 +156,7 @@ echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq | nc localhost 30000
 ```
 **Mot de passe level 15 :** <span class="pwd">jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt</span>
 
+<hr>
 
 - ## **Level 15 => Level 16**
 ```sh
@@ -146,6 +166,7 @@ openssl s_client -connect localhost:30001
 ```
 **Mot de passe level 16 :** <span class="pwd">JQttfApK4SeyHwDlI9SXGR50qclOAil1</span>
 
+<hr>
 
 - ## **Level 16 => Level 17**
 ```sh
@@ -158,6 +179,7 @@ ssh -i ssh-17.private bandit17@localhost -p 2220
 ```
 **Mot de passe level 17 :** <span class="pwd">VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e</span>
 
+<hr>
 
 - ## **Level 17 => Level 18**
 ```sh
@@ -165,15 +187,89 @@ diff passwords.new passwords.old
 ```
 **Mot de passe level 18 :** <span class="pwd">kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd</span>
 
+<hr>
+
 - ## **Level 18 => Level 19**
 ```sh
 ssh -i sshkey.private bandit14@localhost -p 2220 cat readme
 ```
 **Mot de passe level 19 :** <span class="pwd">awhqfNnAbc1naukrpqDYcF95h7HoMTrC</span>
 
+<hr>
 
 - ## **Level 19 => Level 20**
 ```sh
+file bandit20-do 
 
+./bandit20-do
+
+./bandit20-do cat /etc/bandit_pass/bandit20
 ```
-**Mot de passe level 20 :** <span class="pwd"></span>
+**Mot de passe level 20 :** <span class="pwd">VxCazJaVykI6W36BkBU0mJTCM8rR95XT</span>
+
+- ## **Level 20 => Level 21**
+```sh
+file ./suconnect
+
+echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT' | nc -lp 1234
+
+./suconnect 1234
+```
+**Mot de passe level 21 :** <span class="pwd">NvEJF7oVjkddltPSrdKEFOllh9V1IBcq</span>
+
+- ## **Level 21 => Level 22**
+```sh
+cd /etc/cron.d
+
+cat cronjob_bandit22
+
+cat /usr/bin/cronjob_bandit22.sh
+
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+**Mot de passe level 22 :** <span class="pwd">WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff</span>
+
+
+- ## **Level 22 => Level 23**
+```sh
+cd /etc/cron.d
+
+cat cronjob_bandit23
+
+cat /usr/bin/cronjob_bandit23.sh
+
+cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1)
+```
+
+**Mot de passe level 23 :** <span class="pwd">QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G</span>
+
+- ## **Level 23 => Level 24**
+```sh
+cd /etc/cron.d
+
+cat cronjob_bandit23
+
+cat /usr/bin/cronjob_bandit24.sh
+
+##j'ai créer un script shell-ricka.sh que j'ai copié dans /var/spool/bandit24/foo
+##car le script dans cronjob_bandit24.sh dit qu'il execute et supprime
+##les scripts dans /var/spool/$username/foo/
+mkdir /tmp/ricka
+chmod 777 /tmp/ricka
+cd /tmp/ricka
+touch mdp
+chmod 777 /tmp/ricka/mdp
+vim ricka.sh
+####script####
+#!/bin/bash
+
+cat /etc/bandit_pass/bandit24 > /tmp/ricka/mdp
+####fin script#####
+
+chmod ricka.sh
+cp /var/spool/bandit24/foo/
+
+####J'attend un peu
+cat mdp
+```
+**Mot de passe level 24 :** <span class="pwd">VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar</span>
