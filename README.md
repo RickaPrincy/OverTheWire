@@ -1,4 +1,4 @@
-# **Bandit Challenge level 0 => level 34 [STD22052]**
+# **OTW - Bandit Challenge**
 - ## **Level 0 => Level 1**
 ```sh
 cat readme
