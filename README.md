@@ -1,9 +1,9 @@
-# **Bandit Challenge level 0 => level 34**
+# **Bandit Challenge level 0 => level 34 [STD22052]**
 - ## **Level 0 => Level 1**
 ```sh
 cat readme
 ```
-**Password level 1 :** <span style = "color:green" class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
+**Password level 1 :** <span class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
 
 <hr>
 
