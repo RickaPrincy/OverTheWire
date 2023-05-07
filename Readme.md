@@ -173,9 +173,9 @@ openssl s_client -connect localhost:30001
 nmap -A localhost -p 31000-32000
 openssl s_client -connect localhost:31790
 cd  /tmp
-vim ssh-17-17.private ( pour copier ssh le key )
-chmod 600 ssh-17-17.private
-ssh -i ssh-17.private bandit17@localhost -p 2220
+vim ssh-myKey.private ( pour copier ssh le key )
+chmod 600 ssh-myKey.private
+ssh -i ssh-myKey.private bandit17@localhost -p 2220
 ```
 **Mot de passe level 17 :** <span class="pwd">VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e</span>
 
@@ -239,6 +239,7 @@ cat cronjob_bandit23
 cat /usr/bin/cronjob_bandit23.sh
 
 cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1)
+##j'ai trouver echo I ... dans le script /usr/bin/cronjob_bandit23.sh
 ```
 
 **Mot de passe level 23 :** <span class="pwd">QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G</span>
