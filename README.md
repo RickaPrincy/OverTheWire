@@ -4,7 +4,7 @@
     h1{ text-align : center; margin: 20px 0px; font-size: 35px;}
 </style>
 
-# **Solution des challenges Bandit level 0 => level 34**
+# **Bandit Challenge level 0 => level 34**
 - ## **Level 0 => Level 1**
 ```sh
 cat readme
@@ -173,7 +173,7 @@ openssl s_client -connect localhost:30001
 nmap -A localhost -p 31000-32000
 openssl s_client -connect localhost:31790
 cd  /tmp
-vim ssh-myKey.private ( pour copier ssh le key )
+vim ssh-myKey.private ( to copy the ssh key )
 chmod 600 ssh-myKey.private
 ssh -i ssh-myKey.private bandit17@localhost -p 2220
 ```
