@@ -1,9 +1,3 @@
-<style>
-    p { font-size: 17px; }
-    .pwd{ color:#00FF00; }
-    h1{ text-align : center; margin: 20px 0px; font-size: 35px;}
-</style>
-
 # **Bandit Challenge level 0 => level 34**
 - ## **Level 0 => Level 1**
 ```sh
