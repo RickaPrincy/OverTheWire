@@ -9,7 +9,7 @@
 ```sh
 cat readme
 ```
-**Mot de passe level 1 :** <span style = "color:green" class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
+**Password level 1 :** <span style = "color:green" class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
 
 <hr>
 
@@ -17,7 +17,7 @@ cat readme
 ```sh
 cat ./-
 ```
-**Mot de passe level 2 :** <span class="pwd">rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi</span>
+**Password level 2 :** <span class="pwd">rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi</span>
 
 <hr>
 
@@ -25,7 +25,7 @@ cat ./-
 ```sh
 cat "space in this filename"
 ```
-**Mot de passe level 3 :** <span class="pwd">aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG</span>
+**Password level 3 :** <span class="pwd">aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG</span>
 
 <hr>
 
@@ -35,7 +35,7 @@ ls -a inhere
 
 cat inhere/.hidden
 ```
-**Mot de passe level 4 :** <span class="pwd">2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</span>
+**Password level 4 :** <span class="pwd">2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</span>
 
 <hr>
 
@@ -47,7 +47,7 @@ file ./*
 
 cat ./-file07
 ```
-**Mot de passe level 5 :** <span class="pwd">lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR</span>
+**Password level 5 :** <span class="pwd">lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR</span>
 
 <hr>
 
@@ -57,7 +57,7 @@ find -size 1033c
 
 cat inhere/maybehere07.file2
 ```
-**Mot de passe level 6 :** <span class="pwd">P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU</span>
+**Password level 6 :** <span class="pwd">P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU</span>
 
 <hr>
 
@@ -67,7 +67,7 @@ find / -size 33c -user bandit7 -group bandit6 -type f
 
 cat ./var/lib/dpkg/info/bandit7.password
 ```
-**Mot de passe level 7 :** <span class="pwd">z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S</span>
+**Password level 7 :** <span class="pwd">z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S</span>
 
 <hr>
 
@@ -75,7 +75,7 @@ cat ./var/lib/dpkg/info/bandit7.password
 ```sh
 grep "millionth" data.txt
 ```
-**Mot de passe level 8 :** <span class="pwd">TESKZC0XvTetK0S9xNwm25STk5iWrBvP</span>
+**Password level 8 :** <span class="pwd">TESKZC0XvTetK0S9xNwm25STk5iWrBvP</span>
 
 <hr>
 
@@ -83,7 +83,7 @@ grep "millionth" data.txt
 ```sh
 sort data.txt | uniq -cu
 ```
-**Mot de passe level 9 :** <span class="pwd">EN632PlfYiZbn3PhVK3XOGSlNInNE00t</span>
+**Password level 9 :** <span class="pwd">EN632PlfYiZbn3PhVK3XOGSlNInNE00t</span>
 
 <hr>
 
@@ -91,7 +91,7 @@ sort data.txt | uniq -cu
 ```sh
 strings data.txt | grep "==" 
 ```
-**Mot de passe level 10 :** <span class="pwd">G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s</span>
+**Password level 10 :** <span class="pwd">G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s</span>
 
 <hr>
 
@@ -99,7 +99,7 @@ strings data.txt | grep "=="
 ```sh
 cat data.txt | base64 -d 
 ```
-**Mot de passe level 11 :** <span class="pwd">6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM</span>
+**Password level 11 :** <span class="pwd">6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM</span>
 
 <hr>
 
@@ -107,7 +107,7 @@ cat data.txt | base64 -d
 ```sh
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
-**Mot de passe level 12 :** <span class="pwd">JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv</span>
+**Password level 12 :** <span class="pwd">JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv</span>
 
 <hr>
 
@@ -129,7 +129,7 @@ mv data8.bin data9.gz
 gzip -d data9.gz
 cat data9
 ```
-**Mot de passe level 13 :** <span class="pwd">wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw</span>
+**Password level 13 :** <span class="pwd">wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw</span>
 
 <hr>
 
@@ -142,7 +142,7 @@ ssh -i sshkey.private bandit14@localhost -p 2220
 cat /etc/bandit_pass/bandit14
 
 ```
-**Mot de passe level 14 :** <span class="pwd">fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq</span>
+**Password level 14 :** <span class="pwd">fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq</span>
 
 <hr>
 
@@ -154,7 +154,7 @@ cat bandit14
 
 echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq | nc localhost 30000
 ```
-**Mot de passe level 15 :** <span class="pwd">jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt</span>
+**Password level 15 :** <span class="pwd">jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt</span>
 
 <hr>
 
@@ -164,7 +164,7 @@ cat /etc/bandit_pass/bandit15
 
 openssl s_client -connect localhost:30001
 ```
-**Mot de passe level 16 :** <span class="pwd">JQttfApK4SeyHwDlI9SXGR50qclOAil1</span>
+**Password level 16 :** <span class="pwd">JQttfApK4SeyHwDlI9SXGR50qclOAil1</span>
 
 <hr>
 
@@ -177,7 +177,7 @@ vim ssh-myKey.private ( to copy the ssh key )
 chmod 600 ssh-myKey.private
 ssh -i ssh-myKey.private bandit17@localhost -p 2220
 ```
-**Mot de passe level 17 :** <span class="pwd">VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e</span>
+**Password level 17 :** <span class="pwd">VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e</span>
 
 <hr>
 
@@ -185,7 +185,7 @@ ssh -i ssh-myKey.private bandit17@localhost -p 2220
 ```sh
 diff passwords.new passwords.old
 ```
-**Mot de passe level 18 :** <span class="pwd">kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd</span>
+**Password level 18 :** <span class="pwd">kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd</span>
 
 <hr>
 
@@ -193,7 +193,7 @@ diff passwords.new passwords.old
 ```sh
 ssh -i sshkey.private bandit14@localhost -p 2220 cat readme
 ```
-**Mot de passe level 19 :** <span class="pwd">awhqfNnAbc1naukrpqDYcF95h7HoMTrC</span>
+**Password level 19 :** <span class="pwd">awhqfNnAbc1naukrpqDYcF95h7HoMTrC</span>
 
 <hr>
 
@@ -205,7 +205,7 @@ file bandit20-do
 
 ./bandit20-do cat /etc/bandit_pass/bandit20
 ```
-**Mot de passe level 20 :** <span class="pwd">VxCazJaVykI6W36BkBU0mJTCM8rR95XT</span>
+**Password level 20 :** <span class="pwd">VxCazJaVykI6W36BkBU0mJTCM8rR95XT</span>
 
 - ## **Level 20 => Level 21**
 ```sh
@@ -215,7 +215,7 @@ echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT' | nc -lp 1234
 
 ./suconnect 1234
 ```
-**Mot de passe level 21 :** <span class="pwd">NvEJF7oVjkddltPSrdKEFOllh9V1IBcq</span>
+**Password level 21 :** <span class="pwd">NvEJF7oVjkddltPSrdKEFOllh9V1IBcq</span>
 
 - ## **Level 21 => Level 22**
 ```sh
@@ -227,7 +227,7 @@ cat /usr/bin/cronjob_bandit22.sh
 
 cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ```
-**Mot de passe level 22 :** <span class="pwd">WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff</span>
+**Password level 22 :** <span class="pwd">WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff</span>
 
 
 - ## **Level 22 => Level 23**
@@ -242,7 +242,7 @@ cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1)
 #I found echo I am ... in the script /usr/bin/cronjob_bandit23.sh
 ```
 
-**Mot de passe level 23 :** <span class="pwd">QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G</span>
+**Password level 23 :** <span class="pwd">QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G</span>
 
 - ## **Level 23 => Level 24**
 ```sh
@@ -272,4 +272,4 @@ cp /var/spool/bandit24/foo/
 ####All I do is wait until my script is executed and then
 cat mdp
 ```
-**Mot de passe level 24 :** <span class="pwd">VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar</span>
+**Password level 24 :** <span class="pwd">VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar</span>
