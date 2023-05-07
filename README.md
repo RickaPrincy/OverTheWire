@@ -9,7 +9,7 @@
 ```sh
 cat readme
 ```
-**Mot de passe level 1 :** <span class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
+**Mot de passe level 1 :** <span style = "color:green" class="pwd">NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL</span>
 
 <hr>
 
